@@ -3,8 +3,7 @@
 Welcome to my personal portfolio! Here you can find information about my projects, skills, and how to contact me.
 
 ## About Me
-Hi, I'm [Your Name], a [Your Profession / Student / Developer] with a passion for [your interests, e.g., web development, data science, design]. I enjoy building projects that [solve problems / are creative / help people].
-
+Hi, I'm Nilakshi Chaudhari, a  Student with a passion for tech. I enjoy building projects that solve problems,are creative .
 ## Skills
 - **Programming Languages:** HTML, CSS, JavaScript, Python, etc.
 - **Tools & Platforms:** Git, GitHub, VS Code, etc.
