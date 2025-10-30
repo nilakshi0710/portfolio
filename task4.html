@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+     <style>
+        body{
+            background-color: bisque;
+        }
+        button{
+            background-color: burlywood;
+        }
+     </style>
+</head>
+<body>
+    <form>
+        <h1>SURVEY FORM</h1>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>NAME :</label>
+            <input type="text" placeholder="Enter Full Name"><br><br>
+            <label>AGE :</label>
+            <input type="number" placeholder="Enter age"><br><br>
+            <label>EMAIL ID :</label>
+            <input type="email" placeholder="Enter email id">
+        </fieldset><br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Favorite Subject :</label>
+            <select >
+                <option value="">--Select--</option>
+                <option value="maths">Mathematics and statistics</option>
+                <option value="cs">Computer Science</option>
+                <option value="literature">Literature</option>
+                <option value="physics">Physics</option>
+                <option value="zoology">Zoology</option>
+                <option value="accounts">Fundamental of Accounts</option>
+            </select><br><br>
+             <label>Hobbies:</label>
+             <input type="checkbox" name="hobbies" value="sports"> Sports
+             <input type="checkbox" name="hobbies" value="traveling"> Traveling
+             <input type="checkbox" name="hobbies" value="music"> Music
+             <input type="checkbox" name="hobbies" value="reading"> Reading
+             <input type="checkbox" name="hobbies" value="dancing"> Dancing
+        </fieldset> <br>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label>Your Suggestions :</label><br>   
+            <textarea placeholder="enter your Feedback here.."></textarea>
+        </fieldset><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
